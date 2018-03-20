@@ -44,7 +44,7 @@ const AnalogDisplay = (props) =>
     border: '1px solid blue',
     width: '20%',
     height: 7,
-    transform: `rotate(${((date.getHours()/60) * 360 - 90).toString()}deg`,
+    transform: `rotate(${((date.getHours()/12) * 360 - 90).toString()}deg`,
     transformOrigin: '0% 0%',
     backgroundColor: 'blue'
   };
